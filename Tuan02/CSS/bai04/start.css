@@ -1,0 +1,103 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 850px;
+    height: 780px;
+    border:1px solid rgb(197, 195, 195);
+    margin-top:50px;
+    padding-right:18px;
+}
+header{
+    width:100%;
+    height:80px;
+    text-align: right;
+    border-bottom: 3px solid rgb(245, 169, 29);
+}
+nav{
+    float:left;
+    width:23%;
+    height: 696px;
+    background-image: url(../../EMAGES/bai4/back.jpg);
+    /* border:1px solid; */
+}
+nav ul li{
+    list-style-type: none;
+    border: 0px;
+    border-bottom: 1px solid chocolate;
+    border-style: dotted;
+    margin-left:-30px;
+    margin-top:15px;
+    margin-right:28px;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: chocolate;
+}
+nav a:hover{
+    color: rgb(77, 0, 0);
+}
+nav #i1{
+    color: #992e28;
+}
+.content{
+    float:left;
+    width:77%;
+    height:696px;
+    padding-left:5px;
+    /* border:1px solid black; */
+}
+.content h2{
+    font-size:25px;
+    color:rgb(245, 169, 29);
+    padding-left:15px;
+    padding:10px;
+}
+.back{
+    float: left;
+    font-size: 13px;
+    max-width: 470px;
+    height: 600px;
+    background-image: url(../../EMAGES/bai4/sample.jpg);
+}
+
+.o1{
+    margin-top: -15px;
+    margin-left: 390px;
+    padding: 5px;
+    background-color: rgb(255,254,241);
+    width:180px;
+    border: 3.5px solid rgb(199, 199, 199);
+    border-style: inset;
+}
+.o2{
+    padding-left: 5px;
+    margin-top: 150px;
+    margin-left: -10px;
+    background-color: rgb(255,254,241);
+    width: 150px;
+    border: 3.5px solid rgb(199, 199, 199);
+    border-style: inset;
+}
+.o3{
+    padding: 5px;
+    margin-top: 40px;
+    margin-right: -45px;
+    background-color: rgb(255,254,241);
+    width: 155px;
+    border: 3.5px solid rgb(199, 199, 199);
+    border-style: inset;
+}
+footer{
+    margin-top:610px;
+    border-top:2px solid rgb(245, 169, 29);
+    text-indent: 20px;
+    text-transform: uppercase;
+    color:rgb(245, 169, 29);
+    height:30px;
+    line-height: 30px;
+}
