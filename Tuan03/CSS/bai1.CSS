@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+}
+.wrapper{
+    width:990px;
+    height:590px;
+    margin-top:30px;
+    background-color:#60abee;
+}
+header{
+    width:100%;
+    height:60px;
+    line-height:50px;
+    position:relative;
+    border-bottom:4px dotted white;
+    
+}
+header h1{
+    position:absolute;
+    right:15px;
+    color:white;
+    text-shadow: 3px 3px 5px  blue, -3px -3px 5px blue;
+}
+.menu_ngang ul li{
+    position:relative;
+    width:110px;
+    text-align: center;
+    display: inline-block;
+    right:40px;
+    padding-top:5px;
+    height:56px;
+}
+.menu_ngang a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.menu_ngang li:hover{
+    background-color: pink;
+    
+}
+.menu_ngang li:hover a{
+    color:rgb(155, 19, 42);
+}
+section{
+    float:left;
+    width: 50%;
+    height:450px;
+    padding-left: 10px;
+}
+section h1{
+    height: 80px;
+    font-size: 30px;
+    padding-top:35px;
+    color:white;
+}
+section p{
+    text-align:justify;
+    color:white;
+    margin-right: 38px;
+}
+section table{
+    width:410px;
+}
+section th{
+    width: 180px;
+    text-align: left;
+    color:white;
+}
+section #id1{
+    border:0.5px dotted rgb(43, 43, 173);
+    border-radius: 5px;
+}
+section #id2{
+    border: 0.5px solid rgb(43, 43, 187);
+    border-radius: 5px;
+}
+aside{
+    float:left;
+    width: 50%;
+    height: 450px;
+    position: relative;
+}
+aside img{
+    width:85%;
+    position: absolute;
+    left:10px;
+    top:40px;
+}
+aside h1{
+    position: relative;
+    top:330px;
+    font-size:33px;
+    left:60px;
+    text-shadow: 3px 2px 1px blue;
+    color:blue;
+}
+aside p{
+    position: relative;
+    top:330px;
+    left:75px;
+    font-size: 22px;
+    color:blue;
+}
+footer{
+    clear:both;
+    width: 100%;
+    height: 80px;
+    border-top:4px dotted white;
+    color:white;
+}
+footer p{
+    padding-top: 6px;
+    text-align: center;
+}
